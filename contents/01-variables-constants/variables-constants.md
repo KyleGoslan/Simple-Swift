@@ -1,4 +1,4 @@
-# 01 - Variables & Constants
+# Variables & Constants
 
 ## Variables
 
