@@ -12,3 +12,5 @@ The aim of the Simple Swift project is to give the most simple explanation for s
 4. [Methods & Functions](../master/LICENSE)
 5. [Classes](../master/LICENSE)
 6. [Closures](../master/LICENSE)
+7. [Protocols](../master/LICENSE)
+8. [Delegates](../master/LICENSE)
