@@ -6,7 +6,7 @@ The aim of the Simple Swift project is to give the most simple explanation for s
 
 ## Contents
 
-1. [Variables & Constants](../blob/master/LICENSE)
-2. [Type Casting](../blob/master/LICENSE)
-3. [Optionals](../blob/master/LICENSE)
-4. [Methods & Functions](../blob/master/LICENSE)
+1. [Variables & Constants](../master/LICENSE)
+2. [Type Casting](../master/LICENSE)
+3. [Optionals](../master/LICENSE)
+4. [Methods & Functions](../master/LICENSE)
