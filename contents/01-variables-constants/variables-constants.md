@@ -30,6 +30,4 @@ So why would you ever use a constant, they’re like variables, but with restric
 
 Xcode will actually inform you if you have declared a variable and never changes it, and suggest you change it to a constant, and if you try to change a constant it force you to change it’s declaration to a variable.
 
-### Tip
-
 Basically, just declare everything with ‘let’. When you try and change it Xcode will force you to change the declaration.
