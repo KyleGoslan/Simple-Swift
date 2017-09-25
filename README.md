@@ -8,7 +8,7 @@ The aim of the Simple Swift project is to give the most simple explanation for s
 
 1. [Variables & Constants](../master/contents/01-variables-constants/variables-constants.md)
 2. [Type Casting](../master/contents/02-type-casting/type-casting.md)
-3. [Optionals](../master/contents/03-optional/optionals.md)
+3. [Optionals](../master/contents/03-optionals/optionals.md)
 4. [Methods & Functions](../master/LICENSE)
 5. [Classes](../master/LICENSE)
 6. [Closures](../master/LICENSE)
