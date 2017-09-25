@@ -13,25 +13,17 @@ Classes are abstract blueprints for the objects that your application needs to w
 + Classes start with the keyword `class`, the class name and then a set of curly brackets.
 + Everything goes inside these brackets.
 
-<br><br>
-
 ```Swift
 class Person {
 
 }
 ```
 
-<br><br>
-
 The above is a class decleration for a `Person` object. It doesn't do a lot at the moment, but already we can start creating `Person` objects in our application:
-
-<br><br>
 
 ```Swift
 let someone = Person()
 ```
-
-<br><br>
 
 Lets expand the class to make it a bit more useful. Generally you can think of objects as being made up of two main components.
 
@@ -59,7 +51,6 @@ init(name: String, age: Int) {
   self.age = age
 }
 ```
-
 
 
 
