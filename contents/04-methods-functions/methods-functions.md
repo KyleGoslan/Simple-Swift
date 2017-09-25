@@ -2,15 +2,11 @@
 
 Methods and functions in Swift work similarly to many other languages, if you understand functions in another language, chances are it won't take you long to feel right at home in Swift.
 
-
-
 ## Method vs Function
 
 For simplicity here regard the words "method" and "function" as interchangable, as the keyword to define them is `func` I'll use the term "function" from here on.
 
 Functions are simple a block of code that you have wrapped up and given a name to. They can be as long or as short as you like, this largely depends on how comple the task that the function performs is. Although it's generally a good idea to try and keep your functions as short and concise as possible, this keep things clear and managable.
-
-
 
 ### Declaring a Function
 
@@ -23,8 +19,6 @@ func saySomething() {
 ```
 As you can see, they start with the keyword `func`, are then given a name (camel cased), a set of bracket, then a set of curly brackets which contain the body of the function. In the above example this simple prints the word "Hello".
 
-
-
 ## Calling A Function
 
 Once you have a function defined, you have to *call* it in order to execute it. Calling a function is straight forward, you just write the name of the function followed by a set of brackets. Calling the function we declared above would look like this:
@@ -34,8 +28,6 @@ saySomething()
 ```
 
 This `saySomething` function can now be called time and time again to repete a task, performing the same action every time, in this case printing the words "Hello", but what if we wanted it to change slightly each time? This is where "arguments" come in...
-
-
 
 ## Functions With Arguments
 
@@ -57,6 +49,6 @@ saySomething(words: "Hello")
 saySomething(words: "Something else")
 ```
 
-Above, we're making two calles to the *same* function, but passing in different arguments. We can no longer call the function as before, Xcode will tell us that we are missing an argument and offer us a Fix-it.
+Above, we're making two calles to the *same* function, but passing in different arguments. We can no longer call the function without any arguments as before, Xcode will tell us that we are missing an argument and offer us a Fix-it.
 
 **Note:** As always Swift if obsessed with **Type**. This is a good thing, in the above example it means we can't pass an `Int` where the function is expecting a `String`. If we tried to do so we would get an error.
