@@ -52,13 +52,8 @@ init(name: String, age: Int) {
 }
 ```
 
+The `init` is a decleration looks a lot like a normal function, just without the keyword `func`. All classes get a default initilizer which we dont have to write, but would like like `init()`. The one we've writen above works exactly like a normal funtion, we are saying that we want to pass a name which is of type `String` and an age which is of type `Int`. We then assign those value we passed into the init to the respective propertive of the `Person` object.
 
+### Self?
 
-
-
-
-
-
-
-
-
+You may be wondering what this `self` word is all about. Well, the constants that we pass into our init are called "name" and "age" which are the same names we gave our poperties. Within the init function "name" and "age" would reference the values passed into it opposed to the properties. Prefixing them with `self` make it clear were referencing the class properties.
