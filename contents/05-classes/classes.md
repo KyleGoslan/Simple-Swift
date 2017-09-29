@@ -57,3 +57,22 @@ The `init` is a decleration looks a lot like a normal function, just without the
 ### Self?
 
 You may be wondering what this `self` word is all about. Well, the constants that we pass into our init are called "name" and "age" which are the same names we gave our poperties. Within the init function "name" and "age" would reference the values passed into it opposed to the properties. Prefixing them with `self` make it clear were referencing the class properties.
+
+
+### Creating a Person
+
+Now we have a very basic class setup we can start using person objects, technically called "instances". Creating one would look like this:
+
+```Swift
+let someone = Person(name: "John", age: 20)
+```
+
+Creating an instance of our `Person` class looks a lot like creating any other vairiable or constant, we define it with `let` or `var`, give it a name and then use the initilized that we declared in the class, in the above example we now have a constant called *someone*, which is a `Person` object. You accessing properties of the object by using dot syntax. Here we'll simple print the persons name and because the *age* property was declared with var, we can change it to something else:
+
+```Swift
+print(someone.name)
+//Prints "John"
+
+someone.age = 21
+//Someones age will now be set to 21
+```
